@@ -2,22 +2,20 @@ import React from "react";
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
+import ToDoItem from "./ToDoItem"
+import style from "./style.css";
+import ContactCard from "./ContactCard";
 
 function MyApp() {
     return (
       <div>
-        <input type="checkbox" />
-        <p>Placeholder txt here</p>
-
-        <input type="checkbox" />
-        <p>Placeholder txt here</p>
-
-        <input type="checkbox" />
-        <p>Placeholder txt here</p>
-
-        <input type="checkbox" />
-        <p style={{color: "#FF8C00", backgroundColor: "#555", fontSize: 24}}>Placeholder txt here</p>
-
+        <todo className="todo-list">
+          <ToDoItem/>
+          <ToDoItem/>
+          <ToDoItem/>
+          <ToDoItem/>
+        </todo>
+        <ContactCard/>
         <Header />
         <Main />
         <Footer />

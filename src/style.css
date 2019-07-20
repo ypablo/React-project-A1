@@ -91,3 +91,12 @@ input[type=checkbox] {
     height: 45px;
     font-size: 18px;
 }
+.footer{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}

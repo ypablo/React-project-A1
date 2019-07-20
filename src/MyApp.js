@@ -8,7 +8,9 @@ import ContactCard from "./ContactCard";
 import Joke from "./Joke"
 import todosData from "./todosData"
 import App from "./App"
-
+import API from "./API"
+import Forms from "./Forms"
+import Forms2 from "./Forms2"
 
 class MyApp extends React.Component {
   constructor() {
@@ -51,6 +53,9 @@ class MyApp extends React.Component {
         <Main />
         <Footer />
         <App />
+        <API />
+        <Forms />
+        <Forms2 />
       </div >
     )
   }

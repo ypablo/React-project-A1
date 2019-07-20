@@ -20,9 +20,11 @@ class Footer extends React.Component {
 
     render() {
         let buttonText = this.state.isLoggedIn ? "LOG OUT" : "LOG IN";
+        let displayText = this.state.isLoggedIn ? "LOG OUT" : "LOG IN";
         return (
             <div className="footer">
                 <button onClick={this.handleClick}>{buttonText}</button>
+                <h1>{displayText}</h1>
             </div>
         )
     }

@@ -11,6 +11,7 @@ import App from "./App"
 import API from "./API"
 import Forms from "./Forms"
 import Forms2 from "./Forms2"
+import Forms3 from "./Forms3"
 
 class MyApp extends React.Component {
   constructor() {
@@ -56,6 +57,7 @@ class MyApp extends React.Component {
         <API />
         <Forms />
         <Forms2 />
+        <Forms3 />
       </div >
     )
   }
